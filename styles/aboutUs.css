@@ -1,0 +1,211 @@
+.about-text{
+    margin-top: 250px;
+}
+
+.styled-text, .styled-text2, .styled-text3, .styled-text4{
+    font-family: "Spicy Rice", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.styled-text {
+    font-size: 35px;
+    color: #F3919F; 
+}
+
+.story{
+    background-color: #CCBDF4;
+}
+
+.story h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .about-text h3 {
+        font-size: 1.4rem; /* Slightly reduce font size on smaller screens */
+    }
+}
+
+.styled-text2 {
+    font-size: 35px;
+    margin-left: 20px;
+    color: #7059AD;
+}
+
+.color-orange{
+    color: #FDAE5A;
+}
+
+.color-pink{
+    color:#F3919F;
+}
+
+.color-purple{
+    color:#7059AD;
+}
+
+.instr-bg {
+    width: 285px;
+    height: 100%;
+    background-color: #7059AD;
+    margin-left: -100px;
+}
+
+.instr-bg h2 {
+    margin-left: 100px;
+    width: 400px;
+    margin-top: 10px;
+    padding-top: 20px;
+    color: white;
+}
+
+.box-pink{
+    background-color: rgba(243, 145, 159, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box-orange{
+    background-color: #FDAE5A;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box-purple{
+    background-color: #7059AD;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.white-text{
+    color: #F4F4FC !important; 
+}
+
+.instructors {
+    text-align: center;
+}
+
+.instr-bg h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.box h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 60px;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box {
+        margin-bottom: 20px; /* Adds space between boxes on smaller devices */
+    }
+
+    .instr-bg h2 {
+        font-size: 2rem; /* Reduce title size for smaller screens */
+    }
+
+    .box h3 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+
+    .box h5 {
+        font-size: 1.1rem;
+    }
+
+    .box p {
+        font-size: 0.95rem;
+    }
+
+    .icon {
+        width: 35px; /* Slightly reduce icon size */
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        padding: 15px;
+    }
+
+    .instr-bg h2 {
+        font-size: 1.8rem; /* Further reduce title size */
+    }
+
+    .box h3 {
+        font-size: 1.4rem; /* Adjust heading size for very small screens */
+    }
+
+    .box p {
+        font-size: 0.9rem;
+    }
+
+    .icon {
+        width: 30px; /* Reduce icon size for very small screens */
+    }
+    .instr-bg {
+        width: 265px;
+    }
+}
+
+/* Ensure text is responsive */
+.about-text h3 {
+    font-size: 1.5rem; /* Base font size for medium devices */
+    line-height: 1.4;
+    margin-top: -60px;
+}
+
+/* Image is aligned in the center and stacked underneath text on mobile */
+.row {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .about-text h3 {
+        font-size: 1.25rem; /* Smaller font size for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .about-text h3 {
+        font-size: 1rem; /* Smaller font size for mobile */
+        line-height: 1.3;
+    }
+
+    /* Ensure image is stacked under the text on mobile */
+    .col-md-4 {
+        margin-top: 20px; /* Space between the text and the image */
+    }
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: flex-end; /* Align the image to the bottom */
+}
+
+.line-orange{
+    height: 2px;
+    width: 55%;
+    background-color: #FDAE5A;
+    margin-left: auto; /* This will push the element to the right */
+    margin-right: 0;
+}

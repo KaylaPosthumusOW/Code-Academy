@@ -1,0 +1,202 @@
+.styled-text, .styled-text2, .styled-text3, .styled-text4{
+    font-family: "Spicy Rice", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.centering p{
+    color: #2D2E4E !important;
+}
+
+.header-banner{
+    margin-top: 3%;
+}
+
+.welcome-text {
+    display: inline-block;
+    font-size: 3rem; /* Adjust the size as needed */
+    margin-left: 6%;
+}
+
+.styled-text {
+    font-size: 65px;
+    color: #F3919F; /* Example color for styled text */
+}
+
+.styled-text2 {
+    font-size: 40px;
+    color: #7059AD; /* Example color for styled text */
+}
+
+.styled-text3 {
+    font-size: 50px;
+    color: #7059AD; /* Example color for styled text */
+    
+}
+
+.styled-text4{
+    font-size: 50px;
+    color: #F4F4FC;
+    margin-right: 15px;
+}
+
+.StarIcon{
+    margin-top: -100px;
+    margin-right: 3%;
+}
+
+.KidIcon{
+    margin-left: 22%;
+    margin-top: -7%;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+.LearnMoreIcon{
+    margin-left: 37%;
+    margin-top: -5%;
+}
+
+.LaptopIcon{
+    margin-top: -15%;
+    margin-left: 5%;
+}
+
+/* General styling */
+
+
+/* Responsive design - hide icons on small screens */
+@media (max-width: 768px) {
+    .StarIcon, .LaptopIcon, .KidIcon, .LearnMoreIcon {
+        display: none; /* Hides icons on screens narrower than 768px */
+    }
+
+    .welcome-text {
+        font-size: 1.5rem; /* Optional: reduce font size for better readability on small devices */
+    }
+
+    .space {
+        display: none; /* Remove unnecessary spacing on smaller screens */
+    }
+}
+
+.mission {
+    margin-top: 3%;
+    
+}
+
+.dark-bg{
+    background-color: #2D2E4E;
+}
+
+.dark-bg h2, h3, p{
+    color: #F4F4FC !important;
+}
+
+.mission-bg {
+    width: 275px;
+    height: 100%;
+    background-color: #7059AD;
+    margin-left: -100px;
+}
+
+.mission-bg h2 {
+    margin-left: 100px;
+    width: 400px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+/* Responsive adjustments */
+.text {
+    padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .mission-bg {
+        margin-left: 0; /* Reset margin for small devices */
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .mission-bg h2 {
+        margin-left: 0; /* Align the text normally */
+        padding: 20px;
+        text-align: center; /* Center text for small devices */
+        width: auto; /* Adjust width automatically */
+    }
+
+    .text {
+        padding-top: 20px; /* Decrease padding for smaller screens */
+        text-align: center; /* Center the text for a better mobile experience */
+    }
+
+    .mission {
+        margin-top: 10px; /* Adjust top margin for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .text p {
+        font-size: 0.9rem; /* Decrease font size on very small devices for readability */
+    }
+}
+
+.StarIcon2{
+    margin-left: -90px;
+    margin-top: 65px;
+}
+
+.highlights{
+    margin-top: 3%;
+}
+
+.overview{
+    text-align: center;
+    /* border: 2px solid #F3919F; */
+    padding: 20px 30px;
+}
+
+.line-pink{
+    height: 2px;
+    width: 300px;
+    background-color: #F3919F;
+    margin-left: -40px;
+}
+
+.line-orange{
+    height: 2px;
+    width: 55%;
+    background-color: #FDAE5A;
+    margin-left: auto; /* This will push the element to the right */
+    margin-right: 0;
+}
+
+/* Carousel */
+.one {
+    height: 120px;
+    background-color: #F3919F;
+}
+
+
+.two{
+    height: 120px;
+    background-color: #CCBDF4;
+}
+
+.three{
+    height: 120px;
+    background-color: #FDAE5A;
+}
+
+.carousel-caption{
+    margin-bottom: -20px;
+}

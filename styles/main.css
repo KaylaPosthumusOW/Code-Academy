@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&family=Spicy+Rice&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2D2E4E;
+}
+
+p{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #2D2E4E;
+}
+
+body{
+    background-color: #F4F4FC;
+}
+
+.navbar{
+    background-color: #F4F4FC;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center; /* Vertically center the text with the image */
+}
+
+.brand-container img {
+    margin-right: 10px; /* Add space between the logo and text */
+}
+
+.brand-container h6 {
+    margin: 0; /* Remove default margin from h6 */
+    font-size: 1rem; /* Adjust the font size to match */
+}
+
+.primary-btn{
+    background-color: #FDAE5A;
+    border: 3px solid #FDAE5A;
+    border-radius: 20px;
+    height: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color:#2D2E4E;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.primary-btn:hover{
+    background-color: transparent;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust logo size */
+}
+
+.footer-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin: 15px 0;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+}
+
+.subscription-form {
+    margin: 15px 0;
+}
+
+.subscription-form input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscription-form button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription-form button:hover {
+    background-color: #777;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
