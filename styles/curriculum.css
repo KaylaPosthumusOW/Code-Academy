@@ -1,0 +1,51 @@
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets for a cleaner look */
+    padding-left: 0;
+}
+
+.divider{
+    width: 50%;
+    height: 2px;
+    background-color: #CCBDF4;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.month-Curriculum{
+    text-align: center;
+}
+
+.styled-text, .styled-text2, .styled-text3, .styled-text4{
+    font-family: "Spicy Rice", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #F4F4FC;
+    margin-right: 10px;
+}
+
+.breakdown-bg {
+    width: 270px;
+    height: 100%;
+    background-color: #7059AD;
+    margin-left: -100px;
+}
+
+.breakdown-bg h2 {
+    margin-left: 100px;
+    width: 600px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.line{
+    width: 40%;
+    height: 2px;
+    background-color: #F3919F;
+    margin-left: auto;
+}
