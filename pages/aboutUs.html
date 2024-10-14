@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="../styles/aboutUs.css">
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHYW1ZBM4T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BHYW1ZBM4T');
+</script>
 <body>
 
     <!-- Navigation Bar -->
@@ -61,7 +70,7 @@
                 </div>
                 <!-- Image: visible on medium and larger devices, stacked under text on mobile -->
                 <div class="col-md-4 d-flex justify-content-md-end justify-content-center order-md-2 order-1 mb-3 mb-md-0">
-                    <img src="../assets/kidIcon.png" alt="About Us Image" class="img-fluid" width="300">
+                    <img src="../assets/aboutUs.svg" alt="About Us Image" width="300">
                 </div>
             </div>
         </div>
@@ -103,19 +112,61 @@
         </div>
     </section>
     
-    <div class="line-orange my-5"></div>
+    <div class="line-orange mt-5 mb-4"></div>
       <!-- Our Approach to teaching -->
       <section>
-        <h3>Our Approach to teaching</h3>
-        <p>We focus on hands-on learning, ensuring that students understand coding concepts through interactive projects and challenges.</p>
+        <div class="container">
+          <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-6 approach">
+              <h3 class="mb-3">Our Approach to teaching</h3>
+              <p>We focus on hands-on learning, ensuring that students understand coding concepts through interactive projects and challenges.</p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 choose">
+              <h3 class="mb-3">Why Choose Us</h3>
+              <div class="align mb-3">
+                <img src="../assets/orangeDot.svg" width="40">
+                <p>Focus on personalized learning, small class sizes, and age-appropriate content.</p>
+              </div>
+              <div class="align mb-3 mx-5">
+                <img src="../assets/purpleDot.svg" width="40">
+                <p>Safe and supportive learning environment.</p>
+              </div>
+              <div class="align">
+                <img src="../assets/pinkDot.svg" width="40">
+                <p>Progress tracking for personalized feedback.</p>   
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </section>
 
-      <!-- Our Approach to teaching -->
-      <section>
-        <h3>Why Choose Us</h3>
-        <p>Focus on personalized learning, small class sizes, and age-appropriate content.</p>
-        <p>Safe and supportive learning environment.</p>
-        <p>Progress tracking for personalized feedback.</p>   
-      </section>
+      <footer class="mt-5">
+        <div class="footer-content">
+            <div class="logo mb-2">
+                <img src="../assets/CodeStars - Logo.svg" alt="Company Logo">
+            </div>
+            <ul class="footer-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+            <form class="subscription-form">
+                <input type="email" placeholder="Subscribe to our newsletter" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

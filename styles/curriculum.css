@@ -49,3 +49,9 @@ ul {
     background-color: #F3919F;
     margin-left: auto;
 }
+
+@media (max-width: 768px) {
+    .small{
+        padding-left: 30px;
+    }
+}

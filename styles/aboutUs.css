@@ -14,12 +14,13 @@
 }
 
 .story{
-    background-color: #CCBDF4;
+    background-color: #7059AD;
 }
 
 .story h3 {
     font-size: 1.6rem;
     font-weight: 400;
+    color:#F4F4FC;
 }
 
 @media (max-width: 768px) {
@@ -43,7 +44,7 @@
 }
 
 .color-purple{
-    color:#7059AD;
+    color:#dad1f5;
 }
 
 .instr-bg {
@@ -208,4 +209,27 @@
     background-color: #FDAE5A;
     margin-left: auto; /* This will push the element to the right */
     margin-right: 0;
+}
+
+.approach{
+    text-align: left;
+}
+
+.choose{
+    text-align: left;
+}
+
+.align {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 10px; /* Adds spacing between the image and text */
+}
+
+.align img {
+    width: 40px;
+}
+
+.align p {
+    margin: 0;
+    font-size: 1rem; /* Adjust font size as needed */
 }

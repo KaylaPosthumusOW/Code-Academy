@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="../styles/enroll.css">
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHYW1ZBM4T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BHYW1ZBM4T');
+</script>
 <body>
 
     <!-- Navigation Bar -->
@@ -49,7 +58,7 @@
     <section>
         <div class="container enroll-form">
             
-            <form>
+            <form class="form">
                 <h2 class="mb-2">Enroll Now!</h2>
                 <div class="row">
                     <!-- Form Section -->
@@ -80,13 +89,13 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="preference" id="option1" value="option1">
                                 <label class="form-check-label" for="option1">
-                                    Option 1
+                                    Interested in Enrolling
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="preference" id="option2" value="option2">
                                 <label class="form-check-label" for="option2">
-                                    Option 2
+                                    General Inquiry
                                 </label>
                             </div>
                         </div>
@@ -102,6 +111,32 @@
             </form>
         </div>
     </section>
+
+    <footer class="mt-5">
+        <div class="footer-content">
+            <div class="logo mb-2">
+                <img src="../assets/CodeStars - Logo.svg" alt="Company Logo">
+            </div>
+            <ul class="footer-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+            <form class="subscription-form">
+                <input type="email" placeholder="Subscribe to our newsletter" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>

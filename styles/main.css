@@ -58,7 +58,7 @@ body{
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #2D2E4E;
     color: white;
     padding: 20px;
     text-align: center;
@@ -102,9 +102,9 @@ footer {
     margin: 0 10px;
 }
 
-.subscription-form {
+/* .subscription-form {
     margin: 15px 0;
-}
+} */
 
 .subscription-form input {
     padding: 5px;
@@ -114,7 +114,7 @@ footer {
 
 .subscription-form button {
     padding: 5px 10px;
-    background-color: #555;
+    background-color: #FDAE5A;
     color: white;
     border: none;
     border-radius: 5px;
@@ -122,10 +122,11 @@ footer {
 }
 
 .subscription-form button:hover {
-    background-color: #777;
+    background-color: #FDAE5A;
 }
 
-.footer-bottom {
+.footer-bottom p{
     margin-top: 20px;
+    color: #F4F4FC;
 }
 

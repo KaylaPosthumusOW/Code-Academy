@@ -200,3 +200,28 @@
 .carousel-caption{
     margin-bottom: -20px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+    
+    .StarIcon2 {
+        display: none; /* Hide the star icon on small devices */
+    }
+
+    .mission-bg {
+        margin-bottom: 20px; /* Add space between columns on small screens */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .carousel-caption{
+        font-size: 1rem;
+    }
+}

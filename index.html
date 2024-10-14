@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="styles/homepage.css">
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHYW1ZBM4T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BHYW1ZBM4T');
+</script>
 <body>
 
     <!-- Navigation Bar -->
@@ -75,7 +84,7 @@
             <p>Join our fun and interactive 10-month coding program designed for kids aged 8 to 13.</p>
         </div>
         <div class="container centering">
-            <button class="primary-btn">Enroll Today!</button>
+          <a href="pages/enroll.html"><button class="primary-btn">Enroll Today!</button></a>
         </div>
     </section>
 
@@ -108,67 +117,66 @@
     <div class="line-orange"></div>
     <!-- Mission Statement -->
     <section class="mission">
-        <div class="container pb-5">
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="mission-bg">
-                        <h2><span class="styled-text4">Mission</span> Statement</h2>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6 text">
-                    <p>At CodeStars Academy, we believe in nurturing young minds through coding. Our hands-on curriculum empowers kids to think creatively, solve problems, and build projects.</p>
-                </div>
-                <div class="col-lg-1">
-                    <img src="assets/StarIcon.svg" width="40" class="StarIcon2">
-                </div>
-            </div>
-        </div>
+      <div class="container pb-5">
+          <div class="row align-items-center">
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                  <div class="mission-bg">
+                      <h2><span class="styled-text4">Mission</span> Statement</h2>
+                  </div>
+              </div>
+              <div class="col-lg-7 col-md-6 text">
+                  <p>
+                      At CodeStars Academy, we believe in nurturing young minds through coding. 
+                      Our hands-on curriculum empowers kids to think creatively, solve problems, 
+                      and build projects.
+                  </p>
+              </div>
+              <div class="col-lg-1 d-none d-md-block">
+                  <img src="assets/StarIcon.svg" width="40" class="StarIcon2">
+              </div>
+          </div>
+      </div>
     </section>
-    </div>
 
-    <!-- Testimonials -->
-     <section>
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <!-- <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div> -->
-            <div class="carousel-inner">
+    <!-- Testimonials Carousel -->
+    <section class="carousel-section">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
               <div class="carousel-item one active">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>“My child loved learning to code and built their own game!”</h5>
-                  <p>Parent Testimonial</p>
-                </div>
+                  <div class="carousel-caption">
+                      <h5>“My child loved learning to code and built their own game!”</h5>
+                      <p>Parent Testimonial</p>
+                  </div>
               </div>
               <div class="carousel-item two">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>The program sparked my child's creativity and gave them the confidence to solve problems on their own.</h5>
-                  <p>Parent Testimonial</p>
-                </div>
+                  <div class="carousel-caption">
+                      <h5>The program sparked my child's creativity and gave them the confidence to solve problems on their own.</h5>
+                      <p>Parent Testimonial</p>
+                  </div>
               </div>
               <div class="carousel-item three">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>My child now talk about coding with such excitement, and I’m proud to see their progress!</h5>
-                  <p>Parent Testimonial</p>
-                </div>
+                  <div class="carousel-caption">
+                      <h5>My child now talks about coding with such excitement, and I’m proud to see their progress!</h5>
+                      <p>Parent Testimonial</p>
+                  </div>
               </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-     </section>
+          </button>
+      </div>
+    </section>
+
 
     <footer>
         <div class="footer-content">
-            <div class="logo">
-                <img src="path/to/your/logo.png" alt="Company Logo">
+            <div class="logo mb-2">
+                <img src="assets/CodeStars - Logo.svg" alt="Company Logo">
             </div>
             <ul class="footer-nav">
                 <li><a href="#home">Home</a></li>
